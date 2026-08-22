@@ -39,3 +39,7 @@ sudo apt install docker-ce docker-ce-cli containerd.io docker-buildx-plugin dock
 - This installs and sets up Docker correctly!
 
 </details>
+
+## Disclaimer!
+
+- As long as you use a Debian based distribution and have Docker, all of the [scripts](./Scripts/) should work!
