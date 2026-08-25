@@ -13,8 +13,8 @@
   A self-sufficient runtime for containers
 
   - **Common Commands:**
+
         - `run`         Create and run a new container from an image
-        
         - `exec`        Execute a command in a running container
         - `ps`          List containers
         - `build`       Build an image from a Dockerfile
