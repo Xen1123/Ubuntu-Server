@@ -67,16 +67,17 @@
         - `unpause`     Unpause all processes within one or more containers         
         - `update`      Update configuration of one or more containers         
         - `wait`        Block until one or more containers stop, then print their exit codes      
-    - **Global Options:**         -     --config string      Location of client config files (default "/home/$USER/.docker")         
-        - `-c`, `--context` string     Name of the context to use to connect to the daemon (overrides DOCKER_HOST env var and default context set with "docker         -                          context use")         
-        - `-D`, `--debug`              Enable debug mode         
-        - `-H`, `--host string`        Daemon socket to connect to         
-        - `-l`, `--log-level` string   Set the logging level ("debug", "info", "warn", "error", "fatal") (default "info")         
-        -     `--tls`                Use TLS; implied by `--tlsverify`         
-        -     `--tlscacert` string   Trust certs signed only by this CA (default "/home/$USER/.docker/ca.pem")         
-        -     `--tlscert` string     Path to TLS certificate file (default "/home/$USER/.docker/cert.pem")         
-        -     `--tlskey` string      Path to TLS key file (default "/home/$USER/.docker/key.pem")         
-        -     `--tlsverify`          Use TLS and verify the remote         
-        - `-v`, `--version`            Print version information and quit      
+    - **Global Options:**         
+        - `--config string`     Location of client config files (default "/home/$USER/.docker")         
+        - `-c`, `--context`     Name of the context to use to connect to the daemon (overrides DOCKER_HOST env var and default context set with "docker context use")         
+        - `-D`, `--debug`       Enable debug mode         
+        - `-H`, `--host`        Daemon socket to connect to         
+        - `-l`, `--log-level`   Set the logging level ("debug", "info", "warn", "error", "fatal") (default "info")         
+        - `--tls`               Use TLS; implied by `--tlsverify`         
+        - `--tlscacert`         Trust certs signed only by this CA (default "/home/$USER/.docker/ca.pem")         
+        - `--tlscert`           Path to TLS certificate file (default "/home/$USER/.docker/cert.pem")         
+        - `--tlskey`            Path to TLS key file (default "/home/$USER/.docker/key.pem")         
+        - `--tlsverify`         Use TLS and verify the remote         
+        - `-v`, `--version`     Print version information and quit      
     - Run 'docker COMMAND --help' for more information on a command.     
     - For more help on how to use Docker, head to https://docs.docker.com/go/guides/   
